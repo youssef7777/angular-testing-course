@@ -29,6 +29,9 @@ export class HomeComponent implements OnInit {
 
     reloadCourses() {
 
+      // this.coursesService.findAllCourses().subscribe(value => console.log(value));
+      // this.coursesService.findAllCourses2().subscribe(value => console.log(value));
+
       const courses$ = this.coursesService.findAllCourses();
 
       this.beginnerCourses$ = this.filterByCategory(courses$, 'BEGINNER');
