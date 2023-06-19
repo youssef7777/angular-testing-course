@@ -29,7 +29,7 @@ describe('CalculatorService', () => {
 
   // Specification oder spec in Jasmine Framework
   // Ein Suite kann mehrere specs besitzen
-  it('should add two numberss', () => {
+  it('should add two numbers', () => {
 
     //Abhängige Services wie der LoggerService werden in Unit-Testing immer gemockt (Ein Fake Obj wird erstellt und damit weiter gearbeitet, ALLERDINGS dieses Obj beinhaltet keine Logik und gibt nichts zurück!!). Dieser Ansatz ist Ressourcen schonend, und performant
     //const logger = new LoggerService();
